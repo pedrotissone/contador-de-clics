@@ -24,11 +24,24 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" src="../src/App.css">    
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <div id="appjs">
+      <h2 id="appjs__title"><u>CONTADOR CON JS PURO</u></h2>
+      <img id="appjs__freecodecamp-logo" src="./imagenes/freecodecamp-logo.jpg" alt="freeCodeCamp logo"/>
+    </div>
+    <div id="contenedor-principaljs">
+      <div id="contadorjs">0</div>
+      <button id="boton-clicjs">Click</button>
+      <button id="boton-reiniciarjs">Reiniciar</button>
+    </div>
+    
+
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +52,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="./contador.js"></script>
   </body>
 </html>
